@@ -36,7 +36,8 @@ const options = {
 // checked if you love the beatles
 <Checkbox
   {...options}
-  value={'loveBeatles'}
+  value={'fan'}
+  inGroup={false} // set this to use Checkbox alone
 />  
 ```
 
