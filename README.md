@@ -46,9 +46,13 @@ const options = {
 npm install --save react-checkbox-duet
 ```
 
-## Example
-
 ## Properties
+### Multi-selecting
+#### CheckboxGroup
+#### Checkbox
+
+### Binary Choice
+#### Checkbox
 
 ## License
 MIT
