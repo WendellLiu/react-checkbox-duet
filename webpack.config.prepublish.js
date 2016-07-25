@@ -11,6 +11,16 @@ module.exports = {
     library: 'react-checkbox-duet',
     libraryTarget: 'umd'
   },
+  externals: [
+    {
+      react: {
+        root: 'React',
+        commonjs2: 'react',
+        commonjs: 'react',
+        amd: 'react'
+      }
+    }
+  ],
   module: {
     loaders: [{
       test: /\.js$/,
