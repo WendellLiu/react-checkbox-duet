@@ -4,11 +4,13 @@
   "description": "react checkbox component for multi-selecting or single one",
   "scripts": {
     "start": "node server.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "prepublish": "webpack --config webpack.config.prepublish.js",
+    "buildExample": "npm run prepublish && NODE_ENV=production webpack --config webpack.config.bundleExample.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://git@github.com:WendellLiu/react-checkbox-two-face.git"
+    "url": "https://git@github.com:WendellLiu/react-checkbox-duet.git"
   },
   "keywords": [
     "react",
@@ -18,9 +20,9 @@
   "author": "WendellLiu <cuk.bas@gmail.com> (http://github.com/WendellLiu)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WendellLiu/react-checkbox-two-face/issues"
+    "url": "https://github.com/WendellLiu/react-checkbox-duet/issues"
   },
-  "homepage": "https://github.com/WendellLiu/react-checkbox-two-face",
+  "homepage": "https://github.com/WendellLiu/react-checkbox-duet",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",

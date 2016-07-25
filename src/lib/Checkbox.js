@@ -18,13 +18,13 @@ class Checkbox extends Component {
 
   render(){
     if(this.props.inGroup){
+
       return(
         <CheckboxInGroup
           {...this.props}
         />
       )
     }
-
     return(
       <CheckboxSingle
         {...this.props}
