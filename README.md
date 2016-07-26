@@ -71,7 +71,7 @@ npm install --save react-checkbox-duet
 ```js
 onChange(nextCheckedList){
   doSomeForCheckedList(checkedList)
-  }
+}
 ```
 
 #### Checkbox
@@ -105,7 +105,7 @@ onChange(nextCheckedList){
 ```js
 onChange(nextChecked){ // nextChecked will be opposite of the input checked before triggering the event
   doSomeForChecked(nextChecked)
-  }
+}
 ```
 ## License
 MIT
