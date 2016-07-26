@@ -93,7 +93,7 @@ onChange(nextCheckedList){
 | name   | string      |  | false|
 | checked | bool |  `false`  | false|
 | onChange | function |    | false|
-| **inGroup**   | bool      | `true` | **must set to make it work for binary-choice **|
+| **inGroup**   | bool      | `true` | **must set to make it work for binary-choice**|
 
 > `inGroup` must be `false` when binary-choice scenario
 
