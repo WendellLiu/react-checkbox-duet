@@ -38,6 +38,10 @@
     "react-dom": "^0.14.6"
   },
   "dependencies": {
-    "react": "^0.14.6"
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.8.0",
+    "react": "^0.14.6",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1"
   }
 }

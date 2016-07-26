@@ -1,0 +1,95 @@
+@import './color';
+
+body{
+  margin: 0;
+}
+
+.title-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: $dark1;
+  padding: 0 20%;
+  height: 450px;
+
+  > .description{
+    width: 80%;
+    color: $light2;
+    font-size: 2rem;
+  }
+
+  > h1{
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+    font-size: 3.5rem;
+  }
+
+  .github-button-block{
+    margin: 20px 0;
+  }
+}
+
+.demo{
+  margin: 0;
+  padding: 5% 30%;
+  background: $light1;
+
+}
+
+.demo-container{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+
+  > .demo-title{
+    color: $dark3;
+    margin: 20px 0 0 0;
+    font-size: 3rem;
+  }
+
+
+  > div{
+    margin: 20px 0 0 0;
+
+    > .block-title{
+      margin: 30px 0;
+      color: $dark2;
+      font-size: 2.2rem;
+      font-weight: normal;
+    }
+  }
+
+  > .form{
+    width: 100%;
+
+    font-size: 1.2rem;
+  }
+
+  >.display{
+    font-size: 1.2rem;
+
+    >.block-content{
+      padding: 20px 5%;
+      border: 3px dashed $light2;
+    }
+  }
+
+  label{
+    margin: 0 20px 0 0;
+  }
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+
+  background: $dark3;
+  color: #fff;
+
+  a:visited{
+    color: inherit;
+  }
+}
