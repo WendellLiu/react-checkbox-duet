@@ -28,7 +28,12 @@ class Demo1 extends Component {
 
     return(
       <div className="demo-container">
-        <h2 className="demo-title">Multi-Select</h2>
+          <h2 className="demo-title">
+            <a href="https://github.com/WendellLiu/react-checkbox-duet/blob/master/example/js/Demo1.js">
+            Multi-Select
+            </a>
+          </h2>
+
         <div className="form">
           <h3 className="block-title">Form</h3>
           <span className="question">Which beatles member do you love?</span>

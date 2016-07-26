@@ -28,7 +28,11 @@ class Demo2 extends Component {
 
     return(
       <div className="demo-container">
-        <h2 className="demo-title">Binary-Choice</h2>
+        <h2 className="demo-title">
+          <a href="https://github.com/WendellLiu/react-checkbox-duet/blob/master/example/js/Demo2.js">
+          Binary-Choice
+          </a>
+        </h2>
         <div className="form">
           <h3 className="block-title">Form</h3>
           <label>
