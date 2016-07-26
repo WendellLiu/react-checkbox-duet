@@ -29,7 +29,7 @@ const options = {
 </CheckboxGroup>
 ```
 
-or, you can use like following code for single checkbox
+or, you can use like following code for binary-choice checkbox
 
 ```javascript
 import { Checkbox } from 'react-checkbox-duet'
