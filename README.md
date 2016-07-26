@@ -78,9 +78,9 @@ onChange(nextCheckedList){
 | Properties | Type | Default | Required |
 | :--------: |:----:| :------:| :------: |
 | value   | string(number, bool) |        | false |
-| **inGroup**   | bool      | `true` | false|
+| **inGroup**   | bool      | `true` | **unnecessary to set**|
 
-> `inGroup` must be true when multi-select scenario
+> `inGroup` must be `true` when multi-select scenario
 
 * value: input value for identification
 
@@ -93,9 +93,9 @@ onChange(nextCheckedList){
 | name   | string      |  | false|
 | checked | bool |  `false`  | false|
 | onChange | function |    | false|
-| **inGroup**   | bool      | `true` | false|
+| **inGroup**   | bool      | `true` | **must set to make it work for binary-choice **|
 
-> `inGroup` must be false when binary-choice scenario
+> `inGroup` must be `false` when binary-choice scenario
 
 * value: input value for identification
 * name: input name for your purpose
