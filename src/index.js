@@ -1,5 +1,5 @@
-import Checkbox from './component/Checkbox'
-import CheckboxGroup from './component/CheckboxGroup'
+import Checkbox from './components/Checkbox'
+import CheckboxGroup from './components/CheckboxGroup'
 
 export {
   Checkbox,
