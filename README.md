@@ -2,6 +2,8 @@
 
 inspired from [react-radio-group](https://github.com/chenglou/react-radio-group) and [react-checkbox-group](https://github.com/ziad-saab/react-checkbox-group)
 
+[DEMO](https://wendellliu.github.io/react-checkbox-duet/)
+
 * use `react-checkbox-duet` in multi-select or binary-choice way
 * In `onChange` function, you can retrieve the true data, not `event` object.
 * focus on the DOM and data-binding
@@ -55,10 +57,55 @@ npm install --save react-checkbox-duet
 ## Properties
 ### Multi-selecting
 #### CheckboxGroup
+
+| Properties | Type | Default | Required |
+| :--------: |:----:| :------:| :------: |
+| name   | string |        | false |
+| checkedList   | array      | `[]` | false|
+| onChange | function |    | false|
+
+* name: child `input` name
+* checkedList: default checked input values
+* onChange:
+
+```js
+onChange(nextCheckedList){
+  doSomeForCheckedList(checkedList)
+  }
+```
+
 #### Checkbox
+| Properties | Type | Default | Required |
+| :--------: |:----:| :------:| :------: |
+| value   | string(number, bool) |        | false |
+| **inGroup**   | bool      | `true` | false|
+
+> `inGroup` must be true when multi-select scenario
+
+* value: input value for identification
 
 ### Binary Choice
 #### Checkbox
 
+| Properties | Type | Default | Required |
+| :--------: |:----:| :------:| :------: |
+| value   | string |        | false |
+| name   | string      |  | false|
+| checked | bool |  `false`  | false|
+| onChange | function |    | false|
+| **inGroup**   | bool      | `true` | false|
+
+> `inGroup` must be false when binary-choice scenario
+
+* value: input value for identification
+* name: input name for your purpose
+* checked: input default checked
+* onChange:
+
+```js
+onChange(nextChecked){ // nextChecked will be opposite of the input checked before triggering the event
+  doSomeForChecked(nextChecked)
+  }
+```
 ## License
 MIT
