@@ -1,6 +1,6 @@
 {
   "name": "react-checkbox-duet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react checkbox component for multi-selecting or single one",
   "main": "lib/index.js",
   "scripts": {
